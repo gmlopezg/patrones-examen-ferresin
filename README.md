@@ -1,17 +1,17 @@
-Patrones Examen – Ferresin
+# Patrones Examen – Ferresin
 
-Proyecto que implementa un sistema básico de descuentos para la ferretería en línea Ferresin, como parte del examen de Patrones de Diseño.
+Proyecto académico que implementa un sistema simple de descuentos para la ferretería Ferresin usando Java 17 y Spring Boot.  
+Incluye descuentos por día/categoría, descuento para empleados (se aplica el mayor) y pruebas unitarias con JUnit 5 y Mockito.  
+Se utilizaron los patrones Strategy (reglas de descuento) y Decorator (cálculo sin modificar la librería externa).
 
-Incluye:
+## Ejecutar
+./gradlew bootRun  
+http://localhost:8080/
 
-Aplicación Spring Boot (Java 17)
+Usuarios:  
+- juan / 1234  
+- andrea / 4321
 
-Descuentos por día y categoría
+## Pruebas
+./gradlew test
 
-Descuento fijo para empleados (se aplica el mayor)
-
-Uso del patrón Strategy (reglas de descuento)
-
-Uso del patrón Decorator (aplicar descuentos sin modificar la librería externa)
-
-Pruebas unitarias con JUnit 5 y Mockito
